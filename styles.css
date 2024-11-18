@@ -1,0 +1,40 @@
+/*
+### Primary
+
+Moderate violet: hsl(263, 55%, 52%)
+Very dark grayish blue: hsl(217, 19%, 35%)
+Very dark blackish blue: hsl(219, 29%, 14%)
+White: hsl(0, 0%, 100%)
+
+### Neutral
+
+Light gray: hsl(0, 0%, 81%)
+Light grayish blue: hsl(210, 46%, 95%)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --clr-primary-violet: hsl(263, 55%, 52%);
+    --clr-primary-gray-blue: hsl(217, 19%, 35%);
+    --clr-primary-black-blue: hsl(219, 29%, 14%);
+    --clr-primary-white: hsl(0, 0%, 100%);
+
+    --clr-neutral-gray: hsl(0, 0%, 81%);
+    --clr-neutral-gray-blue: hsl(210, 46%, 95%);
+
+    --fw-regular: 500;
+    --fw-bold: 600;
+}
+
+body {
+    display: grid;
+    grid-template-columns: auto;
+    font-family: Barlow Semi Condensed;
+    color: var(--clr-primary-violet);
+    padding: 2rem;
+}
+
+p {
+    color: var(--clr-primary-gray-blue);
+}
