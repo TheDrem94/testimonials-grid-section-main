@@ -99,10 +99,9 @@ p {
     line-height: 1.6;
 }
 
-/*card-styling*/
+/*single-card-styling*/
 
 .card1 {
-    grid-area: card1;
     background: var(--clr-primary-violet);
     color: var(--clr-primary-white);
     background-image: url(images/bg-pattern-quotation.svg);
@@ -111,16 +110,10 @@ p {
 }
 
 .card2 {
-    grid-area: card2;
     background-color: var(--clr-primary-gray-blue);
 }
 
-.card3 {
-    grid-area: card3;
-}
-
 .card4 {
-    grid-area: card4;
     background-color: var(--clr-primary-black-blue);
     color: var(--clr-primary-white);
 }
@@ -131,7 +124,7 @@ p {
     color: var(--clr-primary-black-blue);
 }
 
-@media (min-width:42em) {
+@media (min-width: 640px) {
     .container {
         display: grid;
         grid-template-columns: repeat(4, minmax(250px, auto));
